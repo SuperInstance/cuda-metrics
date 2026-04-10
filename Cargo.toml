@@ -2,7 +2,12 @@
 name = "cuda-metrics"
 version = "0.1.0"
 edition = "2021"
-description = "Telemetry and metrics — counters, gauges, histograms, timers, and health dashboards for agent observability"
+description = "Counters, gauges, histograms, health checks, metrics registry"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-metrics"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
