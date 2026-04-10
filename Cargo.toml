@@ -2,7 +2,7 @@
 name = "cuda-metrics"
 version = "0.1.0"
 edition = "2021"
-description = "Counters, gauges, histograms, health checks, metrics registry"
+description = "Counters, gauges, histograms, and health checks"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-metrics"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
